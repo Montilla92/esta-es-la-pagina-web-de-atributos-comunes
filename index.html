@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--aca llamo los estilos-->
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>atributos comunes</title>
+</head>
+<header>
+<body>
+    <!--aca esta el atributo id-->
+    <header id="logo">
+        <div><h1>hola mundo</h1></div>
+    </header>
+    <!--aca esta el atributo class-->
+    <header class="row">
+        <div class="col-md-12 logo">
+        </div>
+    </header>
+
+<!--Aca pongo atributo transalte-->
+<p>holaaaa ayer vi <span translate="si">fast and furious</span></p>
+
+<!--aca esta el titulo o tooltip-->
+<div>
+    <img src="images/fixies.jpg"
+      alt="esta bici es de carbon puro."
+      title="¡Esta bici esta en promocion!"/>
+
+      <!--este es el dataset-->
+      <div id="compartir">
+        <a href="https://twitter.com/share/?url=https://lenguajehtml.com/"
+           data-share="43">Twitter</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://lenguajehtml.com/"
+           data-share="66">Facebook</a>
+        <a href="https://plus.google.com/share?url=https://lenguajehtml.com/"
+           data-share="38">Google+</a>
+      </div>
+    
+      <script>var links = document.querySelectorAll("#compartir a");
+    
+        links[0].dataset.share; // 43
+        links[1].dataset.share; // 66
+        links[2].dataset.share; // 38</script>
+   
+  </div>
+</html>

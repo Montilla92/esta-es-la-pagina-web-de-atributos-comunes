@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+.logo {
+    height: 400px;
+    width: 0px;
+    background-color: antiquewhite;
+    background-image: url(../images/logobici.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
